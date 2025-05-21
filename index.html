@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zagadka o Adrianie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+    <div class="neon">Adrian</div>
+
+    <div class="zagadka">
+        <p>Jest fanem gier.<br>
+           Codziennie po szkole,<br>
+           na coś się zrzuca.<br><br>
+           W co lubi grać Adrian?<br><br>
+           Wpisz hasło (2 słowa)...<br><br>
+        </p>
+        <input type="text" id="haslo" placeholder="Twoja odpowiedź">
+        <button onclick="sprawdz()">Zatwierdź</button>
+        <p id="wynik"></p>
+    </div>
+
+    <div class="progress-container">
+        <progress id="progressBar" value="1" max="7"></progress>
+        <p>Poziom 1 / 7</p>
+    </div>
+
+</div>
+
+<div id="glitch" class="hidden">
+    <h2>BRAWL STARS!</h2>
+    <div class="gallery" id="gallery"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
